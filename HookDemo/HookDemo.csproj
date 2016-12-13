@@ -44,16 +44,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ClsCommon.cs" />
+    <Compile Include="FrmHookKeyboardDemo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmHookKeyboardDemo.Designer.cs">
+      <DependentUpon>FrmHookKeyboardDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHookMouseDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHookMouseDemo.Designer.cs">
+      <DependentUpon>FrmHookMouseDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTask.Designer.cs">
+      <DependentUpon>FrmTask.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmHookKeyboardDemo.resx">
+      <DependentUpon>FrmHookKeyboardDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHookMouseDemo.resx">
+      <DependentUpon>FrmHookMouseDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTask.resx">
+      <DependentUpon>FrmTask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
